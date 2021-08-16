@@ -17,8 +17,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name="records")
-public class Record {
+@Table(name="spendies")
+public class Spend {
 
 	
 	@Id
