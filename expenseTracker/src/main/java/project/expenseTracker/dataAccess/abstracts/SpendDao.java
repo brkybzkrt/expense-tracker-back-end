@@ -2,6 +2,8 @@ package project.expenseTracker.dataAccess.abstracts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface RecordDao extends JpaRepository<Record, Integer> {
+import project.expenseTracker.entities.Spend;
+
+public interface SpendDao extends JpaRepository<Spend, Integer> {
 
 }
